@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="cookie-consent.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Copilot Dev Days</title>
@@ -352,7 +353,7 @@
                         <li class="subfooter-copyright"><time datetime="2026">© 2026 GitHub, Inc.</time></li>
                         <li><a href="https://docs.github.com/site-policy/github-terms/github-terms-of-service">Terms</a></li>
                         <li><a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement">Privacy</a></li>
-                        <li><a href="https://docs.github.com/site-policy/privacy-policies/github-cookies">Manage cookies</a></li>
+                        <li><button type="button" class="cookie-button" id="manageCookies">Manage cookies</button></li>
                     </ul>
                 </nav>
                 <div class="subfooter-social-and-locale">
@@ -411,6 +412,26 @@
             </div>
         </div>
     </footer>
+    <dialog class="cookie-dialog" id="cookiePreferences" aria-labelledby="cookiePreferencesTitle">
+        <form id="cookiePreferencesForm">
+            <div class="cookie-dialog-header">
+                <h2 id="cookiePreferencesTitle">Manage cookie preferences</h2>
+                <button type="button" class="cookie-dialog-close" aria-label="Close cookie preferences">×</button>
+            </div>
+            <p>Choose whether GitHub Copilot Dev Days may use non-essential cookies to understand how visitors use this site.</p>
+            <fieldset class="cookie-preference">
+                <legend>Analytics</legend>
+                <p>Analytics cookies help us understand site usage and improve the workshop experience.</p>
+                <div class="cookie-options">
+                    <label><input type="radio" name="analytics" value="accepted"> Accept</label>
+                    <label><input type="radio" name="analytics" value="rejected"> Reject</label>
+                </div>
+            </fieldset>
+            <div class="cookie-dialog-actions">
+                <button type="submit" class="cookie-save">Save changes</button>
+            </div>
+        </form>
+    </dialog>
     <script>
         document.querySelectorAll('.category-pill').forEach(pill => {
             pill.addEventListener('click', e => {
