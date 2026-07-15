@@ -47,7 +47,8 @@ body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; heigh
 .prereqs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; max-width: 800px; margin: 0 auto; }
 .prereq-item { display: flex; align-items: center; gap: 0.75rem; padding: 1rem; background: var(--bg-dark); border-radius: 8px; }
 .prereq-check { color: var(--neon-cyan); font-size: 1.25rem; }
-footer { padding: 3rem 0 0; text-align: center; border-top: 1px solid var(--border-color); }
+footer { padding: 3rem 0; text-align: center; border-top: 1px solid var(--border-color); }
+footer:has(.subfooter-bar) { padding-bottom: 0; }
 .footer-links { display: flex; justify-content: center; gap: 2rem; margin-bottom: 1rem; flex-wrap: wrap; }
 .footer-links a { color: var(--text-secondary); text-decoration: none; transition: color 0.3s ease; }
 .footer-links a:hover { color: var(--neon-cyan); }
@@ -73,7 +74,7 @@ footer { padding: 3rem 0 0; text-align: center; border-top: 1px solid var(--bord
     .subfooter { flex-direction: row; justify-content: space-between; padding-inline: 2rem; }
     .subfooter-legal { justify-content: flex-start; }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .hero { padding: 4rem 0 3rem; }
     .stats { gap: 2rem; }
     .part-card { flex-direction: column; text-align: center; }
