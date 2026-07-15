@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="light-theme.css">
     <script src="theme-toggle.js"></script>
+    <script src="github-cookie-consent.js" defer></script>
     <link rel="alternate" hreflang="en" href="https://copilot-dev-days.github.io/">
     <link rel="alternate" hreflang="pt-BR" href="https://copilot-dev-days.github.io/pt_BR/">
     <link rel="alternate" hreflang="es" href="https://copilot-dev-days.github.io/es/">
@@ -421,6 +422,13 @@
             </div>
         </div>
     </footer>
+    <ghcc-consent
+        id="ghcc"
+        data-locale="en"
+        data-initial-cookie-consent-allowed=""
+        data-cookie-consent-required="false"
+        style="position:fixed;bottom:0;left:0;z-index:999999"
+    ></ghcc-consent>
     <script>
         document.querySelectorAll('.category-pill').forEach(pill => {
             pill.addEventListener('click', e => {
