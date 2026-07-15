@@ -60,6 +60,7 @@ footer { padding: 3rem 0 0; text-align: center; border-top: 1px solid var(--bord
 .subfooter-legal-nav { color: var(--text-secondary); font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; font-weight: 600; line-height: 1.5; }
 .subfooter-legal { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 1rem 1.25rem; text-transform: uppercase; }
 .subfooter-copyright { white-space: nowrap; }
+.subfooter-social-and-locale { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 2rem; }
 .social-links { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 1rem; }
 .social-links a { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; }
 .social-links a:hover { text-decoration: none; }
@@ -78,10 +79,14 @@ footer { padding: 3rem 0 0; text-align: center; border-top: 1px solid var(--bord
 
 /* --- Locale Picker --- */
 .locale-picker { position: relative; display: inline-flex; }
-.locale-toggle { display: flex; align-items: center; justify-content: center; padding: 8px; border-radius: 10px; border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-secondary); font-size: 1rem; line-height: 1; transition: all 0.2s; cursor: pointer; }
-.locale-toggle:hover { background: var(--neon-magenta); color: #fff; border-color: var(--neon-magenta); }
-.locale-picker ul { display: none; position: absolute; top: 100%; right: 0; margin: 4px 0 0; padding: 4px 0; list-style: none; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); z-index: 100; min-width: 180px; }
+.locale-toggle { display: flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.5rem 0.75rem; border: 1px solid var(--border-color); border-radius: 6px; background: transparent; color: var(--text-secondary); font-family: inherit; font-size: 0.75rem; font-weight: 600; line-height: 1; cursor: pointer; }
+.locale-toggle:hover { color: var(--text-primary); border-color: var(--text-secondary); }
+.locale-toggle:focus-visible { outline: 2px solid var(--neon-cyan); outline-offset: 2px; }
+.locale-toggle svg { width: 16px; height: 16px; fill: currentColor; }
+.locale-chevron { margin-left: 0.25rem; }
+.locale-picker ul { display: none; position: absolute; right: 0; bottom: calc(100% + 0.5rem); margin: 0; padding: 4px 0; list-style: none; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 100; min-width: 200px; text-align: left; }
 .locale-picker li { padding: 8px 16px; cursor: pointer; font-size: 0.9rem; color: var(--text-primary); white-space: nowrap; transition: background 0.15s; }
 .locale-picker li:hover { background: var(--neon-magenta); color: #fff; }
 .locale-picker li.active { font-weight: 600; color: var(--neon-cyan); }
 .locale-picker li.active:hover { color: #fff; }
+.footer-locale-picker { display: flex; justify-content: center; margin-top: 2rem; }

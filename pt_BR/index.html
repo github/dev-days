@@ -45,14 +45,6 @@
 </head>
 <body>
     <div style="position:fixed;top:1rem;right:1rem;z-index:1000;display:flex;gap:0.5rem;align-items:center;">
-        <div class="locale-picker" id="localePicker">
-            <button type="button" class="locale-toggle" aria-haspopup="listbox" aria-expanded="false" aria-label="Selecionar idioma">🌐</button>
-            <ul role="listbox" aria-label="Idioma">
-                <li role="option" data-locale="en" aria-selected="false">🇬🇧 English</li>
-                <li role="option" data-locale="es" aria-selected="false">🇪🇸 Español</li>
-                <li role="option" data-locale="pt-BR" aria-selected="true" class="active">🇧🇷 Português (Brasil)</li>
-            </ul>
-        </div>
         <button class="theme-toggle" onclick="toggleTheme()">☀️ Light</button>
     </div>
 
@@ -352,6 +344,20 @@
             </div>
             <p class="footer-credit">Feito com 💜 pelo time do GitHub Copilot</p>
             <p class="footer-credit" style="margin-top: 1rem;">Organizadores do GitHub Copilot Dev Days, visite <a href="https://github.com/github/GitHub-Copilot-Dev-Days/" target="_blank" style="color: var(--neon-cyan);">github.com/github/GitHub-Copilot-Dev-Days</a> para mais informações.</p>
+            <div class="footer-locale-picker">
+                <div class="locale-picker" id="localePicker">
+                    <button type="button" class="locale-toggle footer-locale-toggle" aria-haspopup="listbox" aria-expanded="false" aria-label="Selecionar idioma">
+                        <svg class="locale-globe" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM5.78 8.75a9.64 9.64 0 0 0 1.36 4.18c.26.43.55.83.86 1.21.25-.3.55-.7.86-1.21a9.64 9.64 0 0 0 1.36-4.18Zm4.44-1.5a9.64 9.64 0 0 0-1.36-4.18A9.93 9.93 0 0 0 8 1.86a9.93 9.93 0 0 0-.86 1.21A9.64 9.64 0 0 0 5.78 7.25Zm-5.94 1.5H1.54a6.51 6.51 0 0 0 4.67 5.5c-.12-.18-.24-.37-.35-.55-.72-1.19-1.44-2.88-1.58-4.95Zm-2.74-1.5h2.74c.14-2.07.86-3.76 1.58-4.95.12-.2.23-.38.35-.55a6.51 6.51 0 0 0-4.67 5.5Zm10.18 1.5c-.14 2.07-.86 3.76-1.58 4.95-.12.2-.23.38-.35.55a6.51 6.51 0 0 0 4.67-5.5Zm2.74-1.5a6.51 6.51 0 0 0-4.67-5.5c.12.18.24.37.35.55.72 1.19 1.44 2.88 1.58 4.95Z"/></svg>
+                        <span class="locale-current">Português (Brasil)</span>
+                        <svg class="locale-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="M12.78 5.22a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L3.22 6.28a.75.75 0 1 1 1.06-1.06L8 8.94l3.72-3.72a.75.75 0 0 1 1.06 0Z"/></svg>
+                    </button>
+                    <ul role="listbox" aria-label="Idioma">
+                        <li role="option" data-locale="en" aria-selected="false">🇬🇧 English</li>
+                        <li role="option" data-locale="es" aria-selected="false">🇪🇸 Español</li>
+                        <li role="option" data-locale="pt-BR" aria-selected="true" class="active">🇧🇷 Português (Brasil)</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
     <script>
@@ -372,12 +378,14 @@
     </script>
     <script>
 (function () {
-  var match = location.pathname.match(/^\/(pt_BR|es)\//);
+  var match = location.pathname.match(/\/(pt_BR|es)(?:\/|$)/);
   var locale = match ? match[1] : 'en';
   var picker = document.getElementById('localePicker');
   if (!picker) return;
   var toggleBtn = picker.querySelector('.locale-toggle');
   var list = picker.querySelector('ul');
+  var labels = { en: 'English', es: 'Español', pt_BR: 'Português (Brasil)' };
+  picker.querySelector('.locale-current').textContent = labels[locale] || labels.en;
   list.querySelectorAll('li').forEach(function(li) {
     var liLocale = li.dataset.locale === 'pt-BR' ? 'pt_BR' : li.dataset.locale;
     if (liLocale === locale) { li.classList.add('active'); li.setAttribute('aria-selected','true'); }
@@ -393,11 +401,10 @@
       e.stopPropagation();
       var target = li.dataset.locale === 'pt-BR' ? 'pt_BR' : li.dataset.locale;
       if (target === locale) { close(); return; }
-      var path = location.pathname;
-      if (locale !== 'en') path = path.replace(new RegExp('^/' + locale), '');
-      if (target !== 'en') path = '/' + target + path;
+      var base = locale === 'en' ? new URL('./', location.href) : new URL('../', location.href);
+      var path = target === 'en' ? './' : target + '/';
       localStorage.setItem('preferred-locale', target);
-      window.location.href = path;
+      window.location.href = new URL(path, base).href;
     });
   });
 })();
