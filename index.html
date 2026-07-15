@@ -45,14 +45,6 @@
 </head>
 <body>
     <div style="position:fixed;top:1rem;right:1rem;z-index:1000;display:flex;gap:0.5rem;align-items:center;">
-        <div class="locale-picker" id="localePicker">
-            <button type="button" class="locale-toggle" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">🌐</button>
-            <ul role="listbox" aria-label="Language">
-                <li role="option" data-locale="en" aria-selected="true" class="active">🇬🇧 English</li>
-                <li role="option" data-locale="es" aria-selected="false">🇪🇸 Español</li>
-                <li role="option" data-locale="pt-BR" aria-selected="false">🇧🇷 Português (Brasil)</li>
-            </ul>
-        </div>
         <button class="theme-toggle" onclick="toggleTheme()">☀️ Light</button>
     </div>
 
@@ -353,19 +345,29 @@
             <p class="footer-credit">Built with 💜 by the GitHub Copilot Team</p>
             <p class="footer-credit" style="margin-top: 1rem;">Organizers of GitHub Copilot Dev Days, visit <a href="https://github.com/github/GitHub-Copilot-Dev-Days/" target="_blank" style="color: var(--neon-cyan);">github.com/github/GitHub-Copilot-Dev-Days</a> for more information.</p>
         </div>
-        <div class="subfooter container">
-            <nav aria-label="Legal and resource links">
-                <ul class="subfooter-legal">
-                    <li><time datetime="2026">© 2026 GitHub, Inc.</time></li>
-                    <li><a href="https://docs.github.com/site-policy/github-terms/github-terms-of-service">Terms</a></li>
-                    <li><a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement">Privacy</a></li>
-                    <li><a href="https://docs.github.com/site-policy/privacy-policies/github-cookies">Manage cookies</a></li>
-                    <li><a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement#privacy-choices">Do not share my personal information</a></li>
-                </ul>
-            </nav>
-            <div class="subfooter-social-and-locale">
-                <nav aria-label="GitHub social media links">
-                    <ul class="social-links">
+        <div class="subfooter-bar">
+            <div class="subfooter">
+                <nav aria-label="Legal and Resource Links" class="subfooter-legal-nav">
+                    <ul class="subfooter-legal">
+                        <li class="subfooter-copyright"><time datetime="2026">© 2026 GitHub, Inc.</time></li>
+                        <li><a href="https://docs.github.com/site-policy/github-terms/github-terms-of-service">Terms</a></li>
+                        <li><a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement">Privacy</a></li>
+                        <li>
+                            <!-- Hydrated by the dotcom asset pipeline to open GitHub's shared OneTrust UI. -->
+                            <cookie-consent-link>
+                                <button
+                                    type="button"
+                                    class="cookie-button"
+                                    data-action="click:cookie-consent-link#showConsentManagement"
+                                    data-analytics-event='{"location":"footer","tag":"link","action":"cookies","context":"subfooter"}'
+                                >Manage cookies</button>
+                            </cookie-consent-link>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="subfooter-social-and-locale">
+                    <nav aria-label="GitHub's Social Media Links">
+                        <ul class="social-links">
                         <li>
                             <a href="https://www.linkedin.com/company/github" aria-label="GitHub on LinkedIn">
                                 <svg viewBox="0 0 19 18" aria-hidden="true"><path d="M3.94 2A2 2 0 1 1 2 0a2 2 0 0 1 1.94 2zM4 5.48H0V18h4zm6.32 0H6.34V18h3.94v-6.57c0-3.66 4.77-4 4.77 0V18H19v-7.93c0-6.17-7.06-5.94-8.72-2.91z"/></svg>
@@ -401,8 +403,21 @@
                                 <svg viewBox="0 0 98 96" aria-hidden="true"><path d="M48.85 0C21.84 0 0 22 0 49.22c0 21.75 13.99 40.17 33.41 46.69 2.42.49 3.31-1.06 3.31-2.36 0-1.14-.08-5.05-.08-9.13-13.59 2.94-16.42-5.87-16.42-5.87-2.18-5.7-5.42-7.17-5.42-7.17-4.45-3.01.33-3.01.33-3.01 4.93.32 7.52 5.05 7.52 5.05 4.37 7.5 11.4 5.38 14.24 4.07.4-3.18 1.7-5.38 3.07-6.6-10.84-1.14-22.24-5.38-22.24-24.28 0-5.38 1.94-9.78 5.01-13.2-.48-1.22-2.18-6.28.49-13.04 0 0 4.12-1.3 13.42 5.05a46.97 46.97 0 0 1 12.22-1.63c4.12 0 8.33.57 12.21 1.63 9.3-6.35 13.43-5.05 13.43-5.05 2.67 6.76.97 11.82.48 13.04 3.16 3.42 5.02 7.82 5.02 13.2 0 18.9-11.4 23.06-22.32 24.28 1.78 1.55 3.31 4.48 3.31 9.13 0 6.6-.08 11.9-.08 13.53 0 1.3.89 2.85 3.32 2.36 19.41-6.52 33.4-24.94 33.4-46.69C97.71 22 75.79 0 48.85 0z"/></svg>
                             </a>
                         </li>
-                    </ul>
-                </nav>
+                        </ul>
+                    </nav>
+                    <div class="locale-picker" id="localePicker">
+                        <button type="button" class="locale-toggle footer-locale-toggle" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">
+                            <svg class="locale-globe" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM5.78 8.75a9.64 9.64 0 0 0 1.36 4.18c.26.43.55.83.86 1.21.25-.3.55-.7.86-1.21a9.64 9.64 0 0 0 1.36-4.18Zm4.44-1.5a9.64 9.64 0 0 0-1.36-4.18A9.93 9.93 0 0 0 8 1.86a9.93 9.93 0 0 0-.86 1.21A9.64 9.64 0 0 0 5.78 7.25Zm-5.94 1.5H1.54a6.51 6.51 0 0 0 4.67 5.5c-.12-.18-.24-.37-.35-.55-.72-1.19-1.44-2.88-1.58-4.95Zm-2.74-1.5h2.74c.14-2.07.86-3.76 1.58-4.95.12-.2.23-.38.35-.55a6.51 6.51 0 0 0-4.67 5.5Zm10.18 1.5c-.14 2.07-.86 3.76-1.58 4.95-.12.2-.23.38-.35.55a6.51 6.51 0 0 0 4.67-5.5Zm2.74-1.5a6.51 6.51 0 0 0-4.67-5.5c.12.18.24.37.35.55.72 1.19 1.44 2.88 1.58 4.95Z"/></svg>
+                            <span class="locale-current">English</span>
+                            <svg class="locale-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="M12.78 5.22a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L3.22 6.28a.75.75 0 1 1 1.06-1.06L8 8.94l3.72-3.72a.75.75 0 0 1 1.06 0Z"/></svg>
+                        </button>
+                        <ul role="listbox" aria-label="Language">
+                            <li role="option" data-locale="en" aria-selected="true" class="active">🇬🇧 English</li>
+                            <li role="option" data-locale="es" aria-selected="false">🇪🇸 Español</li>
+                            <li role="option" data-locale="pt-BR" aria-selected="false">🇧🇷 Português (Brasil)</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -424,12 +439,14 @@
     </script>
     <script>
 (function () {
-  var match = location.pathname.match(/^\/(pt_BR|es)\//);
+  var match = location.pathname.match(/\/(pt_BR|es)(?:\/|$)/);
   var locale = match ? match[1] : 'en';
   var picker = document.getElementById('localePicker');
   if (!picker) return;
   var toggleBtn = picker.querySelector('.locale-toggle');
   var list = picker.querySelector('ul');
+  var labels = { en: 'English', es: 'Español', pt_BR: 'Português (Brasil)' };
+  picker.querySelector('.locale-current').textContent = labels[locale] || labels.en;
   list.querySelectorAll('li').forEach(function(li) {
     var liLocale = li.dataset.locale === 'pt-BR' ? 'pt_BR' : li.dataset.locale;
     if (liLocale === locale) { li.classList.add('active'); li.setAttribute('aria-selected','true'); }
@@ -445,11 +462,10 @@
       e.stopPropagation();
       var target = li.dataset.locale === 'pt-BR' ? 'pt_BR' : li.dataset.locale;
       if (target === locale) { close(); return; }
-      var path = location.pathname;
-      if (locale !== 'en') path = path.replace(new RegExp('^/' + locale), '');
-      if (target !== 'en') path = '/' + target + path;
+      var base = locale === 'en' ? new URL('./', location.href) : new URL('../', location.href);
+      var path = target === 'en' ? './' : target + '/';
       localStorage.setItem('preferred-locale', target);
-      window.location.href = path;
+      window.location.href = new URL(path, base).href;
     });
   });
 })();
