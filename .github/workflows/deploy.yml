@@ -26,7 +26,7 @@ jobs:
       - name: Prepare deployment
         run: |
           mkdir -p ./_site
-          cp index.html styles.css light-theme.css theme-toggle.js ./_site/
+          cp index.html styles.css light-theme.css theme-toggle.js github-cookie-consent.js ./_site/
           cp -r es pt_BR ./_site/ 2>/dev/null || true
           touch ./_site/.nojekyll
 
