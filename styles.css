@@ -52,11 +52,24 @@ footer { padding: 3rem 0; text-align: center; border-top: 1px solid var(--border
 .footer-links a { color: var(--text-secondary); text-decoration: none; transition: color 0.3s ease; }
 .footer-links a:hover { color: var(--neon-cyan); }
 .footer-credit { color: var(--text-secondary); font-size: 0.875rem; }
+.subfooter { display: flex; align-items: center; justify-content: space-between; gap: 2rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); color: var(--text-secondary); font-size: 0.75rem; text-align: left; }
+.subfooter ul { list-style: none; }
+.subfooter a { color: inherit; text-decoration: none; }
+.subfooter a:hover { color: var(--text-primary); }
+.subfooter-legal { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem 1rem; }
+.subfooter-social-and-locale { display: flex; align-items: center; gap: 1rem; }
+.social-links { display: flex; align-items: center; gap: 1rem; }
+.social-links a { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; }
+.social-links svg { width: 18px; height: 18px; fill: currentColor; }
+.subfooter a:focus-visible { outline: 2px solid var(--neon-cyan); outline-offset: 3px; }
 @media (max-width: 768px) {
     .hero { padding: 4rem 0 3rem; }
     .stats { gap: 2rem; }
     .part-card { flex-direction: column; text-align: center; }
     .part-time { margin-top: 0.5rem; }
+    .subfooter { align-items: flex-start; flex-direction: column; }
+    .subfooter-social-and-locale { align-items: flex-start; flex-direction: column; }
+    .social-links { flex-wrap: wrap; }
 }
 
 /* --- Locale Picker --- */
