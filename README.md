@@ -2,9 +2,11 @@
 
 Landing page for **GitHub Copilot Dev Days** — a collection of hands-on workshops to master GitHub Copilot across every IDE, language, and workflow.
 
-🔗 **Live site:** [copilot-dev-days.github.io](https://copilot-dev-days.github.io)
+🔗 **Live site:** [github.github.com/dev-days](https://github.github.com/dev-days/)
 
 ## Workshops
+
+> NOTE: The links below point to the old repository.
 
 ### VS Code — Agent Lab (Social Bingo)
 
