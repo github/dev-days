@@ -1,7 +1,8 @@
 # 📚 Content
 
-This folder contains the **official content** for **GitHub Copilot Dev Days**, including presentation slides and hands-on labs.
-Organizers can select content based on their audience, event format, and available time.
+This folder contains the **official content** for **Dev Days**, including presentation slides and hands-on labs.
+
+Dev Days events are flexible, so organizers should feel empowered to adjust the format based on the needs of their audience.
 
 ## 🗓️ Sample Agenda (Sessions + Workshop)
 
@@ -10,27 +11,14 @@ This is a suggested agenda for events following the **Sessions + Workshop** form
 
 | Order | Session            | Type         | Estimated Time | Description                                                                           |
 | ----: | ------------------ | ------------ | -------------- | ------------------------------------------------------------------------------------- |
-|    01 | GitHub Copilot: Your AI Companion for Every Workflow   | Session      | 30–45 min      | The provided slide deck is an overview of GitHub Copilot. It is recommended to pair this with a product-specific deck listed below.               |
-|    02 | Community Session  | Session      | 30–45 min      | A session led by the local community, showcasing real-world use cases or experiences. Optional — can be skipped if you choose a longer workshop. |
-|    03 | Hands-on Lab       | Hands-on Lab | 60 min         | Guided, practical exercises using GitHub Copilot.                                     |
+|    01 | From issue to merge, in one app   | Session      | 30–45 min      | The provided slide deck is an overview of the GitHub Copilot app.                |
+|    02 | Hands-on Lab       | Hands-on Lab | 60 min         | Guided, practical exercises using GitHub Copilot.                                     |
 
-> This agenda combines **official content**, **community-led sessions**, and **hands-on practice** in a balanced format.
-
-## 🧭 Programming Format
-
-GitHub Copilot Dev Days content supports two event formats:
-
-* **Sessions-only** — select technical sessions based on your audience
-* **Sessions + Workshop** — recommended **3-hour format**, including:
-
-  * **2 technical sessions:** each session should be between 30 to 45 minutes long
-  * **1 hands-on workshop:** minimum of 60 minutes for practical exercises using GitHub Copilot
-
-Each content item below includes its **type**, **estimated time**, and **level** to help you build a well-balanced agenda.
+> This agenda combines **official content** and **hands-on practice** in a balanced format.
 
 ## 🔍 Prerequisites
 
-GitHub Copilot Dev Days events are open to developers of all experience levels. Different events may cover different topics that are more relevant for a subset of developers.
+Dev Days events are open to developers of all experience levels. Different events may cover different topics that are more relevant for a subset of developers.
 
 **For organizers**:
 
@@ -40,103 +28,49 @@ GitHub Copilot Dev Days events are open to developers of all experience levels. 
 
 **For attendees**:
 
-- **GitHub Copilot free subscription** — [Sign up here](https://aka.ms/get-github-copilot-devdays)
+- **GitHub Copilot free subscription** at a minimum — [Sign up here](https://aka.ms/get-github-copilot-devdays)
+
+- Download the [GitHub Copilot app](https://gh.io/dev-days/app)
 
 - Laptop — Required for events that include a hands-on workshop.
 
-## ✨ GitHub Copilot Dev Days – Core Content Session
+## ✨ Dev Days – *Core Content Session*
 
-This session can be used in every GitHub Copilot Dev Days event.
+The current round of Dev Days focuses on the **GitHub Copilot app**, the only desktop experience for agent-driven development built natively on GitHub. 
 
-| Name          | Type         | Time      | Description / Concepts Taught | Level         |
-| ------------- | ------------ | --------- | ----------------------------- | ------------- |
-| **GitHub Copilot: Your AI Companion for Every Workflow** | Session | ~30 - 60 min | Overview slide deck covering general information about GitHub Copilot. | Beginner |
+Alternatively, if your audience wants to focus on development tools in the Terminal, you may focus on the GitHub Copilot CLI.
 
-## 🎤 Product-Specific Presentation Decks
-
-These decks are tailored to specific GitHub Copilot product areas. Organizers can select the decks most relevant to their audience and event focus.
+*Every Dev Days session should include at least one of the following two presentations.*
 
 | Name | Type | Time | Description / Concepts Taught | Level |
 | ---- | ---- | ---- | ----------------------------- | ----- |
-| **Agentic Workflows** | Session | ~30 min | Agentic workflows and AI-assisted development patterns with GitHub Copilot. | Beginner |
+| **⭐Recommended: GitHub Copilot app** | Session | ~30 min | The GitHub Copilot app is the only desktop experience for agent-driven development built natively on GitHub. | Beginner |
 | **GitHub Copilot CLI** | Session | ~30 min | GitHub Copilot CLI in the terminal and command-line workflows. | Beginner |
-| **GitHub Copilot Cloud Agent** | Session | ~30 min | GitHub Copilot coding agents for asynchronous, cloud-based development. | Beginner |
-| **GitHub Copilot SDK** | Session | ~30 min | Building with the GitHub Copilot SDK and extensibility platform. | Beginner |
-| **JetBrains and Eclipse** | Session | ~30 min | GitHub Copilot in JetBrains IDEs and Eclipse. | Beginner |
-| **VS Code** | Session | ~30 min | GitHub Copilot in Visual Studio Code. | Beginner |
-| **Visual Studio** | Session | ~30 min | GitHub Copilot in Visual Studio. | Beginner |
-| **Xcode** | Session | ~30 min | GitHub Copilot for Xcode and Apple developers. | Beginner |
 
 ## 📚 Content Tracks - Workshops
 
 > 🔎 **Highlight**
-> All workshop content is available at **[github.github.com/dev-days](https://github.github.com/dev-days/)**. This is the best link to share with attendees — it displays every available workshop option for GitHub Copilot Dev Days events so participants can navigate directly to the lab for your event.
+> All workshop content is available at **[github.github.com/dev-days](https://github.github.com/dev-days/)**. This is the best link to share with attendees — it displays every available workshop option for Dev Days events so participants can navigate directly to the lab for your event.
 
-Workshop content is organized by **technology track**.
-Each track includes the **GitHub Copilot Dev Days – Core Content Session** and one of the **hands-on workshops**.
+There are two workshop options. The recommended option focuses on the GitHub Copilot app. Alternatively, you may use the workshop focused on the GitHub Copilot CLI.
 
-### 💻 GitHub Copilot for VS Code
+Each track includes the **Dev Days – Core Content Session** and one of the **hands-on workshops**.
 
-#### 🟦 TypeScript / JavaScript Track
-
-| Name          | Type         | Time      | Description / Concepts Taught | Level         |
-| ------------- | ------------ | --------- | ----------------------------- | ------------- |
-| [**TypeScript Copilot Agent Lab**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 hr | Build a Social Bingo game while mastering VS Code Copilot Agent Mode. Covers context engineering, agentic primitives (background/cloud/custom agents), design-first development, and TDD workflows. | Intermediate |
-
-#### 🐍 Python Track
+### ⌨️ GitHub Copilot app
 
 | Name          | Type         | Time      | Description / Concepts Taught | Level         |
 | ------------- | ------------ | --------- | ----------------------------- | ------------- |
-| [**Python Copilot Agent Lab**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 hr | Build a Social Bingo game while mastering VS Code Copilot Agent Mode. Covers context engineering, agentic primitives (background/cloud/custom agents), design-first development, and TDD workflows. | Intermediate |
-
-#### ☕ Java Track
-
-| Name          | Type         | Time      | Description / Concepts Taught | Level         |
-| ------------- | ------------ | --------- | ----------------------------- | ------------- |
-| [**Java Copilot Agent Lab**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 hr | Build a Social Bingo game while mastering VS Code Copilot Agent Mode in a Java stack. Covers context engineering, agentic primitives, design-first development, and TDD workflows. | Intermediate |
-| [**Java App Modernization Workshop**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 hr | Modernize a legacy Java app with Copilot: assess modernization opportunities, upgrade Java/Spring Boot, add health endpoints, and containerize for cloud-native deployment. | Intermediate |
-
-#### 🟣 .NET / C# Track
-
-| Name          | Type         | Time      | Description / Concepts Taught | Level         |
-| ------------- | ------------ | --------- | ----------------------------- | ------------- |
-| [**.NET 10 + Blazor WebAssembly – Copilot Agent Lab**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 hr | Build a Social Bingo game while mastering VS Code Copilot Agent Mode in .NET. Covers context engineering, agentic primitives (background/cloud/custom agents), design-first development, and TDD workflows. | Intermediate |
-
-### 🛠️ GitHub Copilot and other IDEs
-
-#### 💜 GitHub Copilot in Visual Studio for .NET
-
-| Name          | Type         | Time      | Description / Concepts Taught | Level                    |
-| ------------- | ------------ | --------- | ----------------------------- | ------------------------ |
-| [**.NET 10 + Blazor + Visual Studio 2026**](https://github.github.com/dev-days/) | Hands-on Lab | ~2 hr | Build a TinyShop e-commerce app while mastering GitHub Copilot in Visual Studio 2026. Covers code completion (including NES), Agent Mode, MCP servers, Plan Mode, cloud delegation, and AI-first workflows. | Intermediate |
-
-#### 🍎 GitHub Copilot for Xcode & Apple Developers
-
-| Name          | Type         | Time      | Description / Concepts Taught | Level         |
-| ------------- | ------------ | --------- | ----------------------------- | ------------- |
-| [**Xcode Workshop**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 hr | Learn GitHub Copilot in Xcode with a SwiftUI app. Covers code completion, Copilot Chat, Agent Mode, Plan Agent, MCP integration, and optional Copilot Vision. | Intermediate |
-
-#### 💡 GitHub Copilot for IntelliJ, Eclipse & Java Developers
-
-| Name          | Type         | Time      | Description / Concepts Taught | Level         |
-| ------------- | ------------ | --------- | ----------------------------- | ------------- |
-| [**JetBrains Workshop**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 hr | Master GitHub Copilot in JetBrains IDEs using Spring PetClinic. Covers code completion, codebase exploration with chat, custom instructions, and Agent Mode feature development. | Intermediate |
+| [**GitHub Copilot app Workshop**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 - 1.5 hr | Your team is adopting AI agents to work through a growing backlog. The Copilot app gives you one place to direct that work — picking up issues, running agents, reviewing changes, and merging pull requests. This lesson gets you installed, connected, and comfortable starting a conversation about your project. | Beginner |
 
 ### ⌨️ GitHub Copilot CLI
 
 | Name          | Type         | Time      | Description / Concepts Taught | Level         |
 | ------------- | ------------ | --------- | ----------------------------- | ------------- |
-| [**Tailspin Toys Workshop**](https://github.github.com/dev-days/) | Hands-on Lab | ~2 hr | Master GitHub Copilot in the terminal with Tailspin Toys. Covers custom instructions, Copilot CLI setup, MCP servers, custom agents, and agent skills for AI-assisted delivery. | Intermediate |
-
-### ☁️ GitHub Copilot Coding Agents for Asynchronous Development
-
-| Name          | Type         | Time      | Description / Concepts Taught | Level         |
-| ------------- | ------------ | --------- | ----------------------------- | ------------- |
-| [**Mona Mayhem Lab**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 hr | Build a retro arcade contribution-battle game while learning context engineering, Plan Mode, Agent Mode, multi-agent workflows, and design-first development in VS Code. | Intermediate |
+| [**GitHub Copilot CLI: Tailspin Toys Workshop**](https://github.github.com/dev-days/) | Hands-on Lab | ~2 hr | Master GitHub Copilot in the terminal with Tailspin Toys. Covers custom instructions, Copilot CLI setup, MCP servers, custom agents, and agent skills for AI-assisted delivery. | Intermediate |
+| [**GitHub Copilot CLI: Mona Mayhem Workshop**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 hr | Build a retro arcade contribution-battle game while learning context engineering, Plan Mode, Agent Mode, multi-agent workflows, and design-first development in VS Code. | Intermediate |
 
 ## 🧠 How to use this content
 
 * Use **sessions** to introduce concepts and workflows
 * Use **hands-on labs** for guided, practical learning
-* Match **content level** to your audience experience
 * Prefer **one hands-on lab per event** to ensure enough execution time

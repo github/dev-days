@@ -1,6 +1,6 @@
-# 🎉 Organizer Guide: GitHub Copilot Dev Days
+# 🎉 Organizer Guide: Dev Days
 
-GitHub Copilot Dev Days is a community-driven event created by Microsoft developers for the broader developer community. **The goal is to foster learning, collaboration, and innovation around GitHub Copilot.**
+Dev Days is a community-driven event created by Microsoft developers for the broader developer community. **The goal is to foster learning, collaboration, and innovation around GitHub Copilot.**
 
 As an organizer and community leader, you play a crucial role in making this initiative a success. Your leadership helps bring people together, encourages knowledge sharing, and creates an inclusive environment where everyone can grow and contribute.
 
@@ -11,7 +11,7 @@ As an organizer and community leader, you play a crucial role in making this ini
 To assist you in organizing your event, we've created a practical checklist covering the key aspects to consider when planning. This guide is designed to help you run a successful technical event, ensuring nothing important is overlooked.
 
 > [!IMPORTANT]
-> If you choose the **Sessions + Workshop format**, make sure your venue supports hands-on activities.
+> If you plan to run a **Workshop**, make sure your venue supports hands-on activities.
 > This includes either access to a **computer lab** (for example, at a university) or adequate infrastructure for participants to use their **own laptops**, such as tables, **power outlets**, and a **stable Wi-Fi connection**.
 
 ---
@@ -52,26 +52,18 @@ The event agenda includes **two sessions and one workshop**, which means support
 ### 📣 4. Marketing
 
 Use the following event naming convention:
-`GitHub Copilot Dev Days [City Name]`
+`Dev Days [City Name]`
 This helps identify your event as part of the global initiative.
 
-* [ ] Create an **event registration page** with complete event details
+* [ ] The Dev Days team will create your registration page on Luma and add you as an event host. This will give you the ability to edit the event information. Update the event page description based on your event details
   ([see the registration page draft in the marketing folder](../marketing/draft-registration-page.md)).
-* [ ] Confirm which participant information is required by the venue and include it in your registration form.
-* [ ] Use the **official templates** to create banners for the registration page and social media channels.
-  All templates are available in the `/marketing` folder.
+* [ ] Confirm which participant information is required by the venue and include it in the Luma registration flow. 
+* [ ] Use **official event graphics** for the registration page and social media channels.
+  Generate the necessary assets using the [generator tool](https://gh.io/dev-day/assets).
 
 **Your registration page should clearly include:** event description, agenda, date, time, location, banner, and the standardized event name.
 
-> [!TIP]  
-> We highly recommend using **Luma** (free) to create your registration page, as your event will be included in our **Luma calendar**.  
-> You may also use other platforms such as Meetup or any tool your community already uses.
-
-> [!NOTE]
-> We recommend including an event **code of conduct** to help create a welcoming and respectful environment for all participants.
->
-> **Why do I need a code of conduct?**
-> [Learn more about its importance and benefits in the Open Source Guide](https://opensource.guide/code-of-conduct/#why-do-i-need-a-code-of-conduct)
+> Tip: All registration pages will be hosted on Luma. You may also use other platforms such as Meetup or any tool your community already uses to promote your event. But, official attendee registration should be on Luma.
 
 ---
 

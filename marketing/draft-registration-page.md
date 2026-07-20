@@ -1,6 +1,6 @@
-# 📝 Registration Page – GitHub Copilot Dev Days
+# 📝 Registration Page – Dev Days
 
-This document provides a ready-to-use template for creating your **GitHub Copilot Dev Days** event registration page.
+This document provides a ready-to-use template for creating your **Dev Days** event registration page.
 Customize it with your local event details, such as date, time, location, and agenda.
 
 ---
@@ -8,14 +8,15 @@ Customize it with your local event details, such as date, time, location, and ag
 ## Before you start
 
 * 1️⃣ Use the following event name format:
-  `GitHub Copilot Dev Days | [City Name]`
-  Example: `GitHub Copilot Dev Days | São Paulo`
-* 2️⃣ GitHub Copilot Dev Days are open to all developers. But if you plan to cover a topic that has additional prerequisites or experience suggestions, please state this in your registration page.
-* 3️⃣ Clearly state whether participants need to **bring their own laptops** or if computers will be provided by the venue.
+  `Dev Days [City Name]`
+  Example: `GitHub Copilot Dev Days São Paulo`
+* 2️⃣ Generate necessary event page and promotional assets using the [asset generator tool](https://gh.io/dev-day/assets)
+* 3️⃣ Dev Days are open to all developers. But if you plan to cover a topic that has additional prerequisites or experience suggestions, please state this in your registration page.
+* 4️⃣ Clearly state whether participants need to **bring their own laptops** or if computers will be provided by the venue.
 
 ---
 
-## **GitHub Copilot Dev Days | [Your City]**
+## **Dev Days [Your City]**
 
 Join us for a community-led developer event focused on **AI-assisted coding with GitHub Copilot**.
 This event brings together developers to explore practical workflows, real-world use cases, and hands-on experiences using GitHub Copilot.
@@ -38,7 +39,7 @@ Choose the format that best fits your audience, available infrastructure, and ti
 * **Total duration: approximately 3 hours**
 * Includes:
 
-  * **2 technical sessions**
+  * **1 technical sessions**
   * **1 hands-on workshop (1 hour)**
 
 > **Important**
@@ -53,11 +54,9 @@ Choose the format that best fits your audience, available infrastructure, and ti
 
 *[Time]* – **Welcome & Opening**
 
-*[Time]* – **Session 1: GitHub Copilot in Practice** *[or similar title]*
+*[Time]* – **Session 1: GitHub Copilot app** *[or similar title]*
 
-*[Time]* – **Session 2: Community Speaker Session** *[Organizer to add title and description]*
-
-*[Time]* – **Workshop: Hands-on with GitHub Copilot**
+*[Time]* – **Workshop: GitHub Copilot app**
   All workshop content is available at **[github.github.com/dev-days](https://github.github.com/dev-days/)**.
 
 *[Time]* – **Closing & Next Steps**

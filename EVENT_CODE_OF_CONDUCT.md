@@ -1,6 +1,6 @@
 # GitHub Event Code of Conduct
 
-This Code of Conduct addresses our standards and expectations for conduct at GitHub Copilot Dev Days events.
+This Code of Conduct addresses our standards and expectations for conduct at Dev Days events.
 
 ## Code of Conduct
 
