@@ -32,6 +32,8 @@ Dev Days events are open to developers of all experience levels. Different event
 
 - Download the [GitHub Copilot app](https://gh.io/dev-days/app)
 
+- Install the [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli)
+
 - Laptop — Required for events that include a hands-on workshop.
 
 ## ✨ Dev Days – *Core Content Session*
@@ -46,6 +48,8 @@ Alternatively, if your audience wants to focus on development tools in the Termi
 | ---- | ---- | ---- | ----------------------------- | ----- |
 | **⭐Recommended: GitHub Copilot app** | Session | ~30 min | The GitHub Copilot app is the only desktop experience for agent-driven development built natively on GitHub. | Beginner |
 | **GitHub Copilot CLI** | Session | ~30 min | GitHub Copilot CLI in the terminal and command-line workflows. | Beginner |
+
+> Note: While the GitHub Copilot app is available to users on all GitHub plans, workshop exercises will consume AI credits. We recommend keeping an eye on your credit usage before and during your event so you have enough available to fully participate in the hands-on activities.
 
 ## 📚 Content Tracks - Workshops
 
