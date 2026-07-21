@@ -40,7 +40,7 @@ To assist you in organizing your event, we've created a practical checklist cove
 
 ### 🎤 3. Content: Speakers & Facilitators
 
-The event agenda includes **two sessions and one workshop**, which means support from your local community is essential.
+The event agenda includes **one session and one workshop**, which means support from your local community is essential.
 
 * [ ] Identify and invite **speakers** to lead the sessions.
 * [ ] Recruit **facilitators and proctors** to support the workshop and assist participants during hands-on activities.

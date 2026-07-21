@@ -9,7 +9,7 @@ Customize it with your local event details, such as date, time, location, and ag
 
 * 1️⃣ Use the following event name format:
   `Dev Days [City Name]`
-  Example: `GitHub Copilot Dev Days São Paulo`
+  Example: `Dev Days São Paulo`
 * 2️⃣ Generate necessary event page and promotional assets using the [asset generator tool](https://gh.io/dev-day/assets)
 * 3️⃣ Dev Days are open to all developers. But if you plan to cover a topic that has additional prerequisites or experience suggestions, please state this in your registration page.
 * 4️⃣ Clearly state whether participants need to **bring their own laptops** or if computers will be provided by the venue.
@@ -39,7 +39,7 @@ Choose the format that best fits your audience, available infrastructure, and ti
 * **Total duration: approximately 3 hours**
 * Includes:
 
-  * **1 technical sessions**
+  * **1 technical session**
   * **1 hands-on workshop (1 hour)**
 
 > **Important**

@@ -4,7 +4,7 @@
 
 **Dev Days** is a global, in-person user group initiative taking place from **September 1st to October 31st 2026**. The series brings together developers, enthusiasts, and local tech communities to explore the power of GitHub Copilot through practical, hands-on experiences.
 
-Open to all developers, the events are led by local tech communities and designed to be highly practical. Each session runs for approximately **3 hours** and focuses on real-world workflows, hands-on activities, and workshops centered on AI-assisted coding with GitHub Copilot.
+Open to all developers, the events are led by local tech communities and designed to be highly practical. Each session runs for approximately **2-3 hours** and focuses on real-world workflows, hands-on activities, and workshops centered on AI-assisted coding with GitHub Copilot.
 
 ## 🏙️ Find or Host an event in your city
 
@@ -12,7 +12,7 @@ Find an event near you on our [Luma calendar](https://gh.io/dev-days/calendar).
 
 If you're a community leader and want to host a Dev Days event, this repository includes everything you need to plan, organize, and promote your event successfully.
 
-Want to organize a Dev Days event in your city? Fill in our event request form. 
+Want to organize a Dev Days event in your city? Fill in our [event request form](https://gh.io/dev-days-2026). 
 > Filling out the form does not guarantee your event will be accepted. Please await confirmation from our team before planning your event.
 
 ---

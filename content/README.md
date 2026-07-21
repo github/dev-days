@@ -52,7 +52,7 @@ Alternatively, if your audience wants to focus on development tools in the Termi
 > 🔎 **Highlight**
 > All workshop content is available at **[github.github.com/dev-days](https://github.github.com/dev-days/)**. This is the best link to share with attendees — it displays every available workshop option for Dev Days events so participants can navigate directly to the lab for your event.
 
-There are two workshop options. The recommended option focuses on the GitHub Copilot app. Alternatively, you may use the workshop focused on the GitHub Copilot CLI.
+There are two workshop topic options. The recommended option focuses on the GitHub Copilot app. Alternatively, you may use one of the workshops focused on the GitHub Copilot CLI.
 
 Each track includes the **Dev Days – Core Content Session** and one of the **hands-on workshops**.
 

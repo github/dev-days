@@ -27,7 +27,7 @@ Please help keep this space welcoming and useful:
 Do **not** report security vulnerabilities in Issues or Pull Requests.
 Please follow the process outlined in `SECURITY.md` for responsible disclosure.
 
-Thanks for helping make GitHub Copilot Dev Days a great experience for organizers and developers worldwide!
+Thanks for helping make Dev Days a great experience for organizers and developers worldwide!
 
 ## Resources
 
