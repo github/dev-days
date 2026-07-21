@@ -4,15 +4,15 @@ This folder contains the **official content** for **Dev Days**, including presen
 
 Dev Days events are flexible, so organizers should feel empowered to adjust the format based on the needs of their audience.
 
-## 🗓️ Sample Agenda (Sessions + Workshop)
+## 🗓️ Sample Agenda (Session + Workshop)
 
 This is a suggested agenda for events following the **Sessions + Workshop** format
-(approximately **3 hours total**).
+(approximately **2-3 hours total**).
 
 | Order | Session            | Type         | Estimated Time | Description                                                                           |
 | ----: | ------------------ | ------------ | -------------- | ------------------------------------------------------------------------------------- |
-|    01 | From issue to merge, in one app   | Session      | 30–45 min      | The provided slide deck is an overview of the GitHub Copilot app.                |
-|    02 | Hands-on Lab       | Hands-on Lab | 60 min         | Guided, practical exercises using GitHub Copilot.                                     |
+|    01 | **GitHub Copilot app: From issue to merge, in one app**   | Session      | 30–45 min      | The provided slide deck is an overview of the GitHub Copilot app.                |
+|    02 | **Hands-on Lab**       | Hands-on Lab | 60 min         | Start using the GitHub Copilot app with guided, practical exercises.                                     |
 
 > This agenda combines **official content** and **hands-on practice** in a balanced format.
 
@@ -56,7 +56,7 @@ There are two workshop options. The recommended option focuses on the GitHub Cop
 
 Each track includes the **Dev Days – Core Content Session** and one of the **hands-on workshops**.
 
-### ⌨️ GitHub Copilot app
+### ⭐ GitHub Copilot app
 
 | Name          | Type         | Time      | Description / Concepts Taught | Level         |
 | ------------- | ------------ | --------- | ----------------------------- | ------------- |
