@@ -1,6 +1,8 @@
 # Dev Days
 
-> **✨ A global, community-led event series for developers to explore hands-on, AI-assisted coding with GitHub Copilot.**
+> 🚨 **To run an official Dev Days event and receive program support, you must fill out the [event request form](https://gh.io/dev-days-2026) and receive approval from the Dev Days team**. 
+>
+> This repository contains the technical content, promotional materials, and organizer instruction for Dev Days event organizers. 
 
 **Dev Days** is a global, in-person user group initiative taking place from **September 1st to October 31st 2026**. The series brings together developers, enthusiasts, and local tech communities to explore the power of GitHub Copilot through practical, hands-on experiences.
 
