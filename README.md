@@ -1,69 +1,58 @@
-# GitHub Copilot Dev Days
+# Dev Days
 
-Landing page for **GitHub Copilot Dev Days** — a collection of hands-on workshops to master GitHub Copilot across every IDE, language, and workflow.
+> 🚨 **To run an official Dev Days event and receive program support, you must fill out the [event request form](https://gh.io/dev-days-2026) and receive approval from the Dev Days team**. 
+>
+> This repository contains the technical content, promotional materials, and organizer instruction for Dev Days event organizers. 
 
-🔗 **Live site:** [github.github.com/dev-days](https://github.github.com/dev-days/)
+**Dev Days** is a global, in-person user group initiative taking place from **September 1st to October 31st 2026**. The series brings together developers, enthusiasts, and local tech communities to explore the power of GitHub Copilot through practical, hands-on experiences.
 
-## Workshops
+Open to all developers, the events are led by local tech communities and designed to be highly practical. Each session runs for approximately **2-3 hours** and focuses on real-world workflows, hands-on activities, and workshops centered on AI-assisted coding with GitHub Copilot.
 
-> NOTE: The links below point to the old repository.
+## 🏙️ Find or Host an event in your city
 
-### VS Code — Agent Lab (Social Bingo)
+Find an event near you on our [Luma calendar](https://gh.io/dev-days/calendar).
 
-| Workshop | Stack | Duration |
-|----------|-------|----------|
-| [Agent Lab — Python](https://copilot-dev-days.github.io/agent-lab-python/) | Python + FastAPI + HTMX | ~1 hr |
-| [Agent Lab — TypeScript](https://copilot-dev-days.github.io/agent-lab-typescript/) | TypeScript + Vite + React | ~1 hr |
-| [Agent Lab — Java](https://copilot-dev-days.github.io/agent-lab-java/) | Java 21 + Spring Boot | ~1 hr |
-| [Agent Lab — .NET](https://copilot-dev-days.github.io/agent-lab-dotnet/) | .NET 10 + Blazor | ~1 hr |
+If you're a community leader and want to host a Dev Days event, this repository includes everything you need to plan, organize, and promote your event successfully.
 
-### VS Code — Specialized
-
-| Workshop | Stack | Duration |
-|----------|-------|----------|
-| [Mona Mayhem — VS Code (Beginner)](https://copilot-dev-days.github.io/mona-mayhem/?track=vscode) | VS Code + Astro + TypeScript | ~60 min |
-| [App Modernization](https://copilot-dev-days.github.io/appmod-workshop-java/) | Java + Spring Boot Modernization | ~60 min |
-
-### Terminal
-
-| Workshop | Stack | Duration |
-|----------|-------|----------|
-| [Mona Mayhem — CLI (Beginner)](https://copilot-dev-days.github.io/mona-mayhem/?track=cli) | Terminal + Copilot CLI | ~60 min |
-| [Copilot CLI Workshop](https://copilot-dev-days.github.io/tailspin-toys-workshop/) | Terminal + AI-Powered Development | ~90 min |
-
-### IDEs
-
-| Workshop | Stack | Duration |
-|----------|-------|----------|
-| [Copilot for Visual Studio](https://copilot-dev-days.github.io/visual-studio-lab/) | Visual Studio + .NET 10 + Blazor | ~120 min |
-| [Copilot for JetBrains](https://copilot-dev-days.github.io/jetbrains-workshop/) | IntelliJ IDEA + Spring PetClinic | ~60 min |
-| [Copilot for Xcode](https://copilot-dev-days.github.io/xcode-workshop/) | Xcode + SwiftUI | ~60 min |
-
-## Prerequisites
-
-- GitHub Account
-- GitHub Copilot License
-- Git installed
-- Your IDE of choice
-
-## Development
-
-This is a static site hosted on GitHub Pages. To run locally, serve the files with any static file server:
-
-```sh
-# Example using Python
-python3 -m http.server
-
-# Example using Node.js
-npx serve
-```
-
-## Links
-
-- [GitHub Organization](https://github.com/copilot-dev-days)
-- [Copilot Docs](https://docs.github.com/en/copilot)
-- [Awesome Copilot](https://github.com/github/awesome-copilot)
+Want to organize a Dev Days event in your city? Fill in our [event request form](https://gh.io/dev-days-2026). 
+> Filling out the form does not guarantee your event will be accepted. Please await confirmation from our team before planning your event.
 
 ---
 
-Built with 💜 by the GitHub Copilot Team
+### 🗓️ Event formats
+
+**Dev Days** are flexible - please tailor the format to fit your community! We recommend using one of the following **two formats**, depending on your community's experience, audience, **and available infrastructure**.
+
+**1️⃣ Sessions-only format:** Focused on technical talks and demos around GitHub Copilot.
+
+**2️⃣ Sessions + Workshop format:** Combines technical sessions with a hands-on workshop for deeper, practical learning.
+
+Both formats are designed to be interactive and hands-on, encouraging participants to learn by doing.
+
+---
+
+### 📚 Resources available
+
+ **👉 Send attendees to [github.github.com/dev-days](https://github.github.com/dev-days/)** — the central site where all Dev Days hands-on workshops are published. The site displays every available workshop option so attendees can easily find and follow the lab for your event.
+
+| Topic                                      | Description                                                         | Resources                                |
+| :----------------------------------------- | :------------------------------------------------------------------ | :--------------------------------------- |
+| 📁 [**Organization Guide**](organization) | Practical guidance to plan and run your event from start to finish. | Event checklist, registration page draft |
+| 📁 [**Content - Organizer View**](content)                 | Technical content for sessions and workshops.                       | Presentation slides, hands-on labs       |
+| 📁 [**Content - Attendee View**](https://github.github.com/dev-days/)                 | Technical content for sessions and workshops.                       | Hands-on labs       |
+| 📁 [**Marketing**](marketing)       | Materials and templates to help you promote your event.             | Social media templates, event covers     |
+
+## ❓ Questions
+Head to the [Issues](https://github.com/github/dev-days/issues) area in this repo to ask questions.
+
+If you were already approved to organize an event, you will be added to a **Slack channel**. Here you can ask event-specific questions.
+
+For more information about contributing to this repository, please read our [contributing guide](CONTRIBUTING.md).
+
+## Trademarks
+
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
+Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
+Any use of third-party trademarks or logos are subject to those third-party's policies.
