@@ -30,9 +30,9 @@ Dev Days events are open to developers of all experience levels. Different event
 
 - **GitHub Copilot free subscription** at a minimum — [Sign up here](https://aka.ms/get-github-copilot-devdays)
 
-- Download the [GitHub Copilot app](https://gh.io/dev-days/app)
+- Download the [GitHub Copilot app](https://gh.io/dev-days/app) if your event includes the GitHub Copilot app session or workshop.
 
-- Install the [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli)
+- Install the [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli) if your event includes the GitHub Copilot CLI session or workshop.
 
 - Laptop — Required for events that include a hands-on workshop.
 
