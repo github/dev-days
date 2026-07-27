@@ -34,6 +34,8 @@ Dev Days events are open to developers of all experience levels. Different event
 
 - Install the [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli) if your event includes the GitHub Copilot CLI session or workshop.
 
+- Install the [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli)
+
 - Laptop — Required for events that include a hands-on workshop.
 
 ## ✨ Dev Days – *Core Content Session*
