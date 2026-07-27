@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Dev Server",
+            "type": "shell",
+            "command": "python -m http.server 8080 --directory website",
+            "isBackground": true,
+            "problemMatcher": []
+        }
+    ]
+}
