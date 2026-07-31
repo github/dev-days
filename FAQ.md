@@ -50,6 +50,8 @@ https://github.com/github/dev-days/blob/main/content
 
 You may choose to focus on the GitHub Copilot app or GitHub Copilot CLI for your event. The provided slide decks give a comprehensive, all-in-one resource covering the GitHub Copilot app or CLI.
 
+All available decks can also be found in the [Dev Days Presentation Decks release](https://github.com/github/dev-days/releases/tag/2026-07-30). 
+
 ### Workshops
 
 In addition to the core talk, we recommend including one workshop:
@@ -57,6 +59,12 @@ In addition to the core talk, we recommend including one workshop:
 - Choose the workshop option that aligns with your selected topic and audience.
 - Workshops are designed to be hands-on and practical, reinforcing the concepts covered in the talk.
 - You do not need to run multiple workshops in a single event, but you can if you want.
+
+## What languages is the Dev Days content available in?
+
+All content is available in English.
+
+The GitHub Copilot app presentation deck, workshops, and train-the-trainer content are also available in Spanish, Portuguese, Chinese, and Korean.
 
 ## What type of promotion will the Dev Days program do for events?
 

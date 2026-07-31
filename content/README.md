@@ -52,9 +52,10 @@ The **GitHub Copilot app** is the only desktop experience for agent-driven devel
 
 | Name | Type | Time | Description / Concepts Taught | Level | Train the trainer |
 | ---- | ---- | ---- | ----------------------------- | ----- | ------ |
-| [**GitHub Copilot app**](https://github.com/github/dev-days/releases/tag/2026-07-30) | Session/Talk | ~30 min | The GitHub Copilot app is the only desktop experience for agent-driven development built natively on GitHub. | Beginner | [English](https://www.youtube.com/live/SsFU0w3KrI4?si=M2yntYxNFM-U_LwP), [Spanish](https://www.youtube.com/live/PTBDlAa0_aM?si=i2jekaHzrVzZDx6T), [Portuguese](https://www.youtube.com/watch?v=O5ALS9rvTg8), [Korean](https://www.youtube.com/live/4ea0lmGXJiA?si=rrffYuhMdNlOuQFd)
+| [**GitHub Copilot app**](https://github.com/github/dev-days/releases/tag/2026-07-30) | Session/Talk | ~30 min | The GitHub Copilot app is the only desktop experience for agent-driven development built natively on GitHub. | Beginner | [English](https://www.youtube.com/live/SsFU0w3KrI4?si=M2yntYxNFM-U_LwP), [Spanish](https://www.youtube.com/live/PTBDlAa0_aM?si=i2jekaHzrVzZDx6T), [Portuguese](https://www.youtube.com/watch?v=O5ALS9rvTg8), [Korean](https://www.youtube.com/live/4ea0lmGXJiA?si=rrffYuhMdNlOuQFd), [Mandarin Chinese](https://www.bilibili.com/video/BV1T93v6VEca)
 | [**GitHub Copilot app Workshop**](https://github.github.com/dev-days/) | Hands-on Lab | ~1 - 1.5 hr | Scenario: Your team is adopting AI agents to work through a growing backlog. The Copilot app gives you one place to direct that work — picking up issues, running agents, reviewing changes, and merging pull requests. This lesson gets you installed, connected, and comfortable starting a conversation about your project. | Beginner |
 
+> The GitHub Copilot app workshop is available in English, [Spanish](https://github-samples.github.io/copilot-workshops/es-es/app/), [Portuguese](https://github-samples.github.io/copilot-workshops/pt-br/app/), [Chinese (Simplified)](https://github-samples.github.io/copilot-workshops/zh-cn/app/), and [Korean](https://github-samples.github.io/copilot-workshops/ko-kr/app/).
 
 ### ⌨️ Option 2: GitHub Copilot CLI
 
