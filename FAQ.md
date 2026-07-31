@@ -4,7 +4,7 @@
 
 Dev Days is a global series of community-led in-person events focused on product awareness and adoption of GitHub's key products, with a focus on the GitHub Copilot app and Copilot CLI.
 
-**Events are running September–October.**
+**Events run from September 1 through October 31, 2026.**
 
 ## Who can organize a Dev Days event?
 
@@ -12,7 +12,7 @@ Community leaders, GitHub Stars, MVPs, and other developers can organize Dev Day
 
 ## Where do I go to manage my event?
 
-The program team will provide you an event page on the Luma calendar based on the date provided when you signed up to host an event. From there, you can update the page details to make the most sense for your event.
+The program team will provide you with an event page on the Luma calendar based on the date provided when you signed up to host an event. From there, you can update the page details to make the most sense for your event.
 
 ## Can I host multiple Dev Days events?
 

@@ -11,7 +11,7 @@ Dev Days events are flexible, so organizers should feel empowered to adjust the 
 
 ## 🗓️ Sample Agenda (Session + Workshop)
 
-This is a suggested agenda for events includes one **Session** and one **Workshop** (approximately 2-3 hours total).
+This suggested event agenda includes one **Session** and one **Workshop** (approximately 2-3 hours total).
 
 | Order | Session            | Type         | Estimated Time | Description                                                                           |
 | ----: | ------------------ | ------------ | -------------- | ------------------------------------------------------------------------------------- |
