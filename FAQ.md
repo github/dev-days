@@ -15,7 +15,7 @@ No. Due to the overwhelming response to the [Dev Days](https://gh.io/dev-days/ca
 
 Dev Days is a global series of community-led in-person events focused on product awareness and adoption of GitHub's key products, with the focus on GitHub Copilot app and Copilot CLI.
 
-**Events are running September - October.**
+**Events run from September 1 through October 31, 2026.**
 
 ### Who can organize a Dev Days event?
 
@@ -153,7 +153,7 @@ Feel free to request payment in USD or whatever currency you used to pay for foo
 
 ### Can the reimbursement be paid out to someone other than the community leader / point of contact?
 
-Yes. Plain Sight will issue payment to the business or individual listed on your invoice to be paid, even if that person is not the point of contact for the event. Just make sure that the payment details are accurately listed on the invoice.
+Yes. Plain Sight will issue payment to the business or individual listed on your invoice, even if that person is not the point of contact for the event. Just make sure that the payment details are accurately listed on the invoice.
 
 ### What happens after I submit my reimbursement request?
 
