@@ -10,10 +10,10 @@ No. Due to the overwhelming response to the [Dev Days](https://gh.io/dev-days/ca
 
 Yes.
 
-- **Dev Days Hosts:** Receive **25% off** an in-person pass to GitHub Universe 2026 using code **UNIV26DVHT**.
-- **Dev Days Attendees:** Receive **10% off** an in-person pass using code **UNIV26DVDY**.
+- **Dev Days Hosts:** Receive **25% off** an in-person pass to GitHub Universe 2026.
+- **Dev Days Attendees:** Receive **10% off** an in-person pass.
 
-Discount details will be shared in event communications and post-event follow-up emails.
+Discount codes will be shared in event communications and post-event follow-up emails.
 
 ---
 
@@ -23,7 +23,7 @@ Discount details will be shared in event communications and post-event follow-up
 
 Dev Days is a global series of community-led in-person events focused on product awareness and adoption of GitHub's key products, with the focus on GitHub Copilot app and Copilot CLI.
 
-**Events are running September - October.**
+**Events run from September 1 through October 31, 2026.**
 
 ### Who can organize a Dev Days event?
 
@@ -161,7 +161,7 @@ Feel free to request payment in USD or whatever currency you used to pay for foo
 
 ### Can the reimbursement be paid out to someone other than the community leader / point of contact?
 
-Yes. Plain Sight will issue payment to the business or individual listed on your invoice to be paid, even if that person is not the point of contact for the event. Just make sure that the payment details are accurately listed on the invoice.
+Yes. Plain Sight will issue payment to the business or individual listed on your invoice, even if that person is not the point of contact for the event. Just make sure that the payment details are accurately listed on the invoice.
 
 ### What happens after I submit my reimbursement request?
 
