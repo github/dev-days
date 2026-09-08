@@ -6,14 +6,6 @@
 
 No. Due to the overwhelming response to the [Dev Days](https://gh.io/dev-days/calendar) program, we have reached capacity and are no longer accepting or approving new event submissions.
 
-### Are GitHub Universe discounts available for Dev Days hosts and attendees?
-
-Yes.
-
-- **Dev Days Hosts:** Receive **25% off** an in-person pass to GitHub Universe 2026 using code **UNIV26DVHT**.
-- **Dev Days Attendees:** Receive **10% off** an in-person pass using code **UNIV26DVDY**.
-
-Discount details will be shared in event communications and post-event follow-up emails.
 
 ---
 
