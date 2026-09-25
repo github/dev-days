@@ -13,6 +13,12 @@ body { font-family: 'Space Grotesk', sans-serif; background: var(--bg-dark); col
 body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(0,245,255,0.03) 1px, transparent 1px), linear-gradient(rgba(0,245,255,0.03) 1px, transparent 1px); background-size: 50px 50px; pointer-events: none; z-index: -1; }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
 .hero { padding: 6rem 0 2.5rem; text-align: center; position: relative; }
+/* Official, unmodified artwork from https://brand.github.com/GitHub_Logos.zip. */
+.hero-logo { width: 64px; margin: 0 auto 1.5rem; }
+.hero-logo img { display: block; width: 100%; height: auto; }
+.hero-logo .github-mark-light { display: none; }
+html[data-theme="light"] .hero-logo .github-mark-dark { display: none; }
+html[data-theme="light"] .hero-logo .github-mark-light { display: block; }
 .hero-badge { display: inline-block; padding: 0.5rem 1rem; background: rgba(0,245,255,0.1); border: 1px solid var(--neon-cyan); border-radius: 50px; font-size: 0.875rem; color: var(--neon-cyan); margin-bottom: 2rem; font-family: 'JetBrains Mono', monospace; }
 .hero h1 { font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 700; margin-bottom: 1rem; background: linear-gradient(135deg, var(--neon-cyan), var(--neon-magenta)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 .hero-subtitle { font-size: 1.25rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem; }
