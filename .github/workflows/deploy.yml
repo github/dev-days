@@ -27,7 +27,7 @@ jobs:
         run: |
           mkdir -p ./_site
           cp website/index.html website/archive.html website/styles.css website/light-theme.css website/theme-toggle.js website/github-cookie-consent.js ./_site/
-          cp -r website/es website/pt_BR ./_site/
+          cp -r website/es website/pt_BR website/assets ./_site/
           touch ./_site/.nojekyll
 
       - uses: actions/configure-pages@1f0c5cde4bc74cd7e1254d0cb4de8d49e9068c7d # v4.0.0
