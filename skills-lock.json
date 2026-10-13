@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "localizations": {
+      "source": "justinyoo/skills",
+      "sourceType": "github",
+      "skillPath": "skills/localizations/SKILL.md",
+      "computedHash": "04776911c7943141eb6d663f99940978aa982fa4f3a8d0cb44f8ccd60e923c4b"
+    }
+  }
+}

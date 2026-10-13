@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#101828"/>
+
+  <circle cx="452" cy="426" r="224" fill="#19283B"/>
+  <g fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="452" cy="426" r="224"/>
+    <ellipse cx="452" cy="426" rx="94" ry="224"/>
+    <path d="M228 426 H676"/>
+    <path d="M258 314 Q452 364 646 314"/>
+    <path d="M258 538 Q452 488 646 538"/>
+  </g>
+
+  <path d="M474 492 H666 Q704 492 704 530 V626 Q704 664 666 664 H555 L499 708 Q488 716 488 702 V664 H474 Q436 664 436 626 V530 Q436 492 474 492 Z" fill="#101828" stroke="#101828" stroke-width="22" stroke-linejoin="round"/>
+  <path d="M474 492 H666 Q704 492 704 530 V626 Q704 664 666 664 H555 L499 708 Q488 716 488 702 V664 H474 Q436 664 436 626 V530 Q436 492 474 492 Z" fill="#FB7185"/>
+  <g fill="#F8FAFC">
+    <circle cx="511" cy="573" r="12"/>
+    <circle cx="570" cy="573" r="12"/>
+    <circle cx="629" cy="573" r="12"/>
+  </g>
+
+  <path d="M624 614 H800 Q836 614 836 650 V726 Q836 762 800 762 H784 V800 Q784 814 773 805 L720 762 H624 Q588 762 588 726 V650 Q588 614 624 614 Z" fill="#101828" stroke="#101828" stroke-width="20" stroke-linejoin="round"/>
+  <path d="M624 614 H800 Q836 614 836 650 V726 Q836 762 800 762 H784 V800 Q784 814 773 805 L720 762 H624 Q588 762 588 726 V650 Q588 614 624 614 Z" fill="#FB923C"/>
+  <path d="M679 688 L703 712 L747 665" fill="none" stroke="#F8FAFC" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
