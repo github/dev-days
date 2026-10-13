@@ -96,6 +96,7 @@ footer:has(.subfooter-bar) { padding-bottom: 0; }
 .locale-chevron { margin-left: 0.25rem; }
 .locale-picker ul { display: none; position: absolute; right: 0; bottom: calc(100% + 0.5rem); margin: 0; padding: 4px 0; list-style: none; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 100; min-width: 200px; text-align: left; }
 .locale-picker li { padding: 8px 16px; cursor: pointer; font-size: 0.9rem; color: var(--text-primary); white-space: nowrap; transition: background 0.15s; }
+.locale-picker li:focus-visible { outline: 2px solid var(--neon-cyan); outline-offset: -2px; }
 .locale-picker li:hover { background: var(--neon-magenta); color: #fff; }
 .locale-picker li.active { font-weight: 600; color: var(--neon-cyan); }
 .locale-picker li.active:hover { color: #fff; }

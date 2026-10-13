@@ -16,6 +16,7 @@ concurrency:
 jobs:
   generate:
     name: Generate localized website pages
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     permissions:
@@ -322,9 +323,16 @@ jobs:
                       if relative_path.startswith("/")
                       else destination.parent / relative_path
                   )
-                  if not target.resolve().exists():
+                  resolved_target = target.resolve()
+                  try:
+                      resolved_target.relative_to(website_root)
+                  except ValueError:
+                      raise SystemExit(
+                          f"{page_name} has a local link outside the deployed website: {reference}"
+                      )
+                  if not resolved_target.exists():
                       raise SystemExit(f"{page_name} has a missing local link: {reference}")
-                  if parts.fragment and target.resolve() == destination.resolve():
+                  if parts.fragment and resolved_target == destination.resolve():
                       if unquote(parts.fragment) not in parser.ids:
                           raise SystemExit(f"{page_name} has a broken anchor: {reference}")
 

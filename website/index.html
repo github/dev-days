@@ -13,6 +13,7 @@
     <link rel="alternate" hreflang="en" href="https://copilot-dev-days.github.io/">
     <link rel="alternate" hreflang="pt-BR" href="https://copilot-dev-days.github.io/pt_BR/">
     <link rel="alternate" hreflang="es" href="https://copilot-dev-days.github.io/es/">
+    <link rel="alternate" hreflang="ko" href="https://copilot-dev-days.github.io/ko/">
     <link rel="alternate" hreflang="x-default" href="https://copilot-dev-days.github.io/">
     <style>
         .workshop-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.5rem; max-width: 1200px; margin: 0 auto; }
@@ -258,12 +259,12 @@
                         </ul>
                     </nav>
                     <div class="locale-picker" id="localePicker">
-                        <button type="button" class="locale-toggle footer-locale-toggle" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">
+                        <button type="button" class="locale-toggle footer-locale-toggle" aria-haspopup="listbox" aria-expanded="false" aria-controls="locale-options" aria-label="Select language">
                             <svg class="locale-globe" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM5.78 8.75a9.64 9.64 0 0 0 1.36 4.18c.26.43.55.83.86 1.21.25-.3.55-.7.86-1.21a9.64 9.64 0 0 0 1.36-4.18Zm4.44-1.5a9.64 9.64 0 0 0-1.36-4.18A9.93 9.93 0 0 0 8 1.86a9.93 9.93 0 0 0-.86 1.21A9.64 9.64 0 0 0 5.78 7.25Zm-5.94 1.5H1.54a6.51 6.51 0 0 0 4.67 5.5c-.12-.18-.24-.37-.35-.55-.72-1.19-1.44-2.88-1.58-4.95Zm-2.74-1.5h2.74c.14-2.07.86-3.76 1.58-4.95.12-.2.23-.38.35-.55a6.51 6.51 0 0 0-4.67 5.5Zm10.18 1.5c-.14 2.07-.86 3.76-1.58 4.95-.12.2-.23.38-.35.55a6.51 6.51 0 0 0 4.67-5.5Zm2.74-1.5a6.51 6.51 0 0 0-4.67-5.5c.12.18.24.37.35.55.72 1.19 1.44 2.88 1.58 4.95Z"/></svg>
                             <span class="locale-current">English</span>
                             <svg class="locale-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="M12.78 5.22a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L3.22 6.28a.75.75 0 1 1 1.06-1.06L8 8.94l3.72-3.72a.75.75 0 0 1 1.06 0Z"/></svg>
                         </button>
-                        <ul role="listbox" aria-label="Language">
+                        <ul id="locale-options" role="listbox" aria-label="Language">
                             <li role="option" data-locale="en" aria-selected="true" class="active">🇬🇧 English</li>
                             <li role="option" data-locale="es" aria-selected="false">🇪🇸 Español</li>
                             <li role="option" data-locale="pt-BR" aria-selected="false">🇧🇷 Português (Brasil)</li>
@@ -297,38 +298,6 @@
             pills.forEach(p => p.classList.toggle('active', p.getAttribute('href') === '#' + current));
         });
     </script>
-    <script>
-(function () {
-  var match = location.pathname.match(/\/(pt_BR|es|ko)(?:\/|$)/);
-  var locale = match ? match[1] : 'en';
-  var picker = document.getElementById('localePicker');
-  if (!picker) return;
-  var toggleBtn = picker.querySelector('.locale-toggle');
-  var list = picker.querySelector('ul');
-  var labels = { en: 'English', es: 'Español', pt_BR: 'Português (Brasil)', ko: '한국어' };
-  picker.querySelector('.locale-current').textContent = labels[locale] || labels.en;
-  list.querySelectorAll('li').forEach(function(li) {
-    var liLocale = li.dataset.locale === 'pt-BR' ? 'pt_BR' : li.dataset.locale;
-    if (liLocale === locale) { li.classList.add('active'); li.setAttribute('aria-selected','true'); }
-    else { li.classList.remove('active'); li.setAttribute('aria-selected','false'); }
-  });
-  function open() { list.style.display='block'; toggleBtn.setAttribute('aria-expanded','true'); }
-  function close() { list.style.display='none'; toggleBtn.setAttribute('aria-expanded','false'); }
-  toggleBtn.addEventListener('click', function(e) { e.stopPropagation(); list.style.display==='block' ? close() : open(); });
-  document.addEventListener('click', close);
-  document.addEventListener('keydown', function(e) { if (e.key==='Escape') close(); });
-  list.querySelectorAll('li').forEach(function(li) {
-    li.addEventListener('click', function(e) {
-      e.stopPropagation();
-      var target = li.dataset.locale === 'pt-BR' ? 'pt_BR' : li.dataset.locale;
-      if (target === locale) { close(); return; }
-      var base = locale === 'en' ? new URL('./', location.href) : new URL('../', location.href);
-      var path = target === 'en' ? './' : target + '/';
-      localStorage.setItem('preferred-locale', target);
-      window.location.href = new URL(path, base).href;
-    });
-  });
-})();
-</script>
+    <script src="locale-picker.js"></script>
 </body>
 </html>
