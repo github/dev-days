@@ -1,0 +1,7 @@
+{
+  "name": "localizations",
+  "version": "1.0.0",
+  "description": "Localize documentation using locale-specific translation and review rules.",
+  "license": "MIT",
+  "skills": "./"
+}

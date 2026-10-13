@@ -267,6 +267,7 @@
                             <li role="option" data-locale="en" aria-selected="true" class="active">🇬🇧 English</li>
                             <li role="option" data-locale="es" aria-selected="false">🇪🇸 Español</li>
                             <li role="option" data-locale="pt-BR" aria-selected="false">🇧🇷 Português (Brasil)</li>
+                            <li role="option" data-locale="ko" aria-selected="false">🇰🇷 한국어</li>
                         </ul>
                     </div>
                 </div>
@@ -298,13 +299,13 @@
     </script>
     <script>
 (function () {
-  var match = location.pathname.match(/\/(pt_BR|es)(?:\/|$)/);
+  var match = location.pathname.match(/\/(pt_BR|es|ko)(?:\/|$)/);
   var locale = match ? match[1] : 'en';
   var picker = document.getElementById('localePicker');
   if (!picker) return;
   var toggleBtn = picker.querySelector('.locale-toggle');
   var list = picker.querySelector('ul');
-  var labels = { en: 'English', es: 'Español', pt_BR: 'Português (Brasil)' };
+  var labels = { en: 'English', es: 'Español', pt_BR: 'Português (Brasil)', ko: '한국어' };
   picker.querySelector('.locale-current').textContent = labels[locale] || labels.en;
   list.querySelectorAll('li').forEach(function(li) {
     var liLocale = li.dataset.locale === 'pt-BR' ? 'pt_BR' : li.dataset.locale;
