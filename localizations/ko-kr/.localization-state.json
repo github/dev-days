@@ -2,9 +2,9 @@
   "version": 1,
   "files": {
     "website/index.html": {
-      "source_commit": "9b72af6cde63860e26524309508dc8c305d808a3",
-      "source_sha256": "4e4ee1ceeef263465c46dc4b08b51add54eb7de1695cddeffcbe9d561e66c064",
-      "localized_sha256": "5f2ed30051abffbd547adeddb05bb64e99f843a438836e305ed5f7a008e77bf9"
+      "source_commit": "1d8ed9f3d83e41c4cfd6a0f8fa28d003b9ac950b",
+      "source_sha256": "d74075c3cb6877cd81fa9467aae984574b3c9e17a5e656fc5172cbbfca700609",
+      "localized_sha256": "bce40b1bb09bed43ec04c930e26d3980774757d2eaf4ec4521c01974891e625c"
     }
   }
 }
