@@ -114,20 +114,17 @@ Translate human-language prose, including comments inside code blocks where they
 
 ### Translator agent
 
-Use the `translator` agent to perform the localization. It should follow the rules and guidelines defined for each target locale document in the `rules` directory.
+The `translator` agent should follow the rules and guidelines defined for each target locale document in the `rules` directory.
 
 ### Evaluator agent
 
-Use the `evaluator` agent to assess the quality of the localized content. The evaluator checks for accuracy, cultural relevance, and overall quality, following the rules and guidelines defined for the target locale in the `rules` directory.
+The evaluator checks for accuracy, cultural relevance, and overall quality, following the rules and guidelines defined for the target locale in the `rules` directory.
 
-The evaluator scores the localized document against the locale's **Evaluator Scoring Rubric** (defined in the locale's `rules/<locale>.md`). The rubric uses two tiers: **Tier A** hard-fail criteria that must score 5, and **Tier B** graded criteria (1–5) that must score 4 or 5. A document passes only when **every applicable Tier A criterion scores 5 and every applicable Tier B criterion scores ≥ 4**. If anything falls short, return the document to the translator with specific notes and re-run the translate → evaluate loop until it passes, escalating to a human after the rubric's iteration cap.
+The evaluator scores the localized document against the locale's **Evaluator Scoring Rubric** (defined in the locale's `rules/<locale>.md`). If anything falls short, return the document to the translator with specific notes and re-run the translate → evaluate loop until it passes, escalating to a human after the rubric's iteration cap.
 
 ## DOs and DON'Ts
 
 - **Do** perform localization only for the target locales defined in the `rules` directory (one `<locale>.md` per supported locale). Do not localize into unsupported locales.
-- **Do** preserve Markdown structure, code, external link/URL targets, and frontmatter keys exactly (see *Markdown and formatting preservation*).
-- **Do** let heading anchors follow the localized heading text, and update same-document anchor links to match the new slugs so they keep resolving (see *Markdown and formatting preservation*).
-- **Do** point image and asset paths at the original assets (rewriting the relative path as needed so it resolves from `localizations/<locale>/`), unless a corresponding localized asset exists (see *Markdown and formatting preservation*).
 - **Do** mirror the source directory layout under `localizations/<locale>/`.
 - **Don't** treat files under `localizations/` as source input.
 - **Don't** reorder or restructure content; keep headings and their order stable.
