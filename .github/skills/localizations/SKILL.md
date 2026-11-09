@@ -125,7 +125,6 @@ The evaluator scores the localized document against the locale's **Evaluator Sco
 ## DOs and DON'Ts
 
 - **Do** perform localization only for the target locales defined in the `rules` directory (one `<locale>.md` per supported locale). Do not localize into unsupported locales.
-- **Do** point image and asset paths at the original assets (rewriting the relative path as needed so it resolves from `localizations/<locale>/`), unless a corresponding localized asset exists (see *Markdown and formatting preservation*).
 - **Do** mirror the source directory layout under `localizations/<locale>/`.
 - **Don't** treat files under `localizations/` as source input.
 - **Don't** reorder or restructure content; keep headings and their order stable.
