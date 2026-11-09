@@ -114,7 +114,7 @@ Translate human-language prose, including comments inside code blocks where they
 
 ### Translator agent
 
-Use the `translator` agent to perform the localization. It should follow the rules and guidelines defined for each target locale document in the `rules` directory.
+The `translator` agent should follow the rules and guidelines defined for each target locale document in the `rules` directory.
 
 ### Evaluator agent
 
