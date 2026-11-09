@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "files": {
+    "website/index.html": {
+      "source_commit": "1d8ed9f3d83e41c4cfd6a0f8fa28d003b9ac950b",
+      "source_sha256": "d74075c3cb6877cd81fa9467aae984574b3c9e17a5e656fc5172cbbfca700609",
+      "localized_sha256": "418c2ff8949de63d76738e9286e1c3f22797e974ad50d50b3963bcb9d5d9b0cc"
+    }
+  }
+}
